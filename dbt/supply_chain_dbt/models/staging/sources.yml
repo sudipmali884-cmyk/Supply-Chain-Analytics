@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: raw
+    database: supply_db
+    schema: raw
+    tables:
+      - name: products
+      - name: suppliers
+      - name: warehouses
+      - name: inventory
+      - name: orders
+      - name: shipments
+      - name: deliveries
+        
